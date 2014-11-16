@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D89B88E1A18F3120039AFA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D89B88D1A18F3120039AFA2 /* main.cpp */; };
+		1DD480791A18F61A008EE50D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DD480781A18F61A008EE50D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1D89B8881A18F3120039AFA2 /* CopyFiles */ = {
+		1D969B321A18F5AF00A68A75 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1D89B88A1A18F3120039AFA2 /* proj.mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = proj.mac; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D89B88D1A18F3120039AFA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D969B341A18F5AF00A68A75 /* proj.mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = proj.mac; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD480781A18F61A008EE50D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D89B8871A18F3120039AFA2 /* Frameworks */ = {
+		1D969B311A18F5AF00A68A75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +38,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D89B8811A18F3120039AFA2 = {
+		1D969B2B1A18F5AF00A68A75 = {
 			isa = PBXGroup;
 			children = (
-				1D89B88C1A18F3120039AFA2 /* proj.mac */,
-				1D89B88B1A18F3120039AFA2 /* Products */,
+				1D969B361A18F5AF00A68A75 /* netio */,
+				1D969B351A18F5AF00A68A75 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1D89B88B1A18F3120039AFA2 /* Products */ = {
+		1D969B351A18F5AF00A68A75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D89B88A1A18F3120039AFA2 /* proj.mac */,
+				1D969B341A18F5AF00A68A75 /* proj.mac */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D89B88C1A18F3120039AFA2 /* proj.mac */ = {
+		1D969B361A18F5AF00A68A75 /* netio */ = {
 			isa = PBXGroup;
 			children = (
-				1D89B88D1A18F3120039AFA2 /* main.cpp */,
+				1DD480781A18F61A008EE50D /* main.cpp */,
 			);
+			name = netio;
 			path = proj.mac;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D89B8891A18F3120039AFA2 /* proj.mac */ = {
+		1D969B331A18F5AF00A68A75 /* proj.mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D89B8911A18F3120039AFA2 /* Build configuration list for PBXNativeTarget "proj.mac" */;
+			buildConfigurationList = 1D969B3B1A18F5AF00A68A75 /* Build configuration list for PBXNativeTarget "proj.mac" */;
 			buildPhases = (
-				1D89B8861A18F3120039AFA2 /* Sources */,
-				1D89B8871A18F3120039AFA2 /* Frameworks */,
-				1D89B8881A18F3120039AFA2 /* CopyFiles */,
+				1D969B301A18F5AF00A68A75 /* Sources */,
+				1D969B311A18F5AF00A68A75 /* Frameworks */,
+				1D969B321A18F5AF00A68A75 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +80,53 @@
 			);
 			name = proj.mac;
 			productName = proj.mac;
-			productReference = 1D89B88A1A18F3120039AFA2 /* proj.mac */;
+			productReference = 1D969B341A18F5AF00A68A75 /* proj.mac */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1D89B8821A18F3120039AFA2 /* Project object */ = {
+		1D969B2C1A18F5AF00A68A75 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = xus;
 				TargetAttributes = {
-					1D89B8891A18F3120039AFA2 = {
+					1D969B331A18F5AF00A68A75 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 1D89B8851A18F3120039AFA2 /* Build configuration list for PBXProject "proj.mac" */;
+			buildConfigurationList = 1D969B2F1A18F5AF00A68A75 /* Build configuration list for PBXProject "proj.mac" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1D89B8811A18F3120039AFA2;
-			productRefGroup = 1D89B88B1A18F3120039AFA2 /* Products */;
+			mainGroup = 1D969B2B1A18F5AF00A68A75;
+			productRefGroup = 1D969B351A18F5AF00A68A75 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D89B8891A18F3120039AFA2 /* proj.mac */,
+				1D969B331A18F5AF00A68A75 /* proj.mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D89B8861A18F3120039AFA2 /* Sources */ = {
+		1D969B301A18F5AF00A68A75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D89B88E1A18F3120039AFA2 /* main.cpp in Sources */,
+				1DD480791A18F61A008EE50D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1D89B88F1A18F3120039AFA2 /* Debug */ = {
+		1D969B391A18F5AF00A68A75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -165,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		1D89B8901A18F3120039AFA2 /* Release */ = {
+		1D969B3A1A18F5AF00A68A75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,14 +200,14 @@
 			};
 			name = Release;
 		};
-		1D89B8921A18F3120039AFA2 /* Debug */ = {
+		1D969B3C1A18F5AF00A68A75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1D89B8931A18F3120039AFA2 /* Release */ = {
+		1D969B3D1A18F5AF00A68A75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -216,24 +217,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D89B8851A18F3120039AFA2 /* Build configuration list for PBXProject "proj.mac" */ = {
+		1D969B2F1A18F5AF00A68A75 /* Build configuration list for PBXProject "proj.mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D89B88F1A18F3120039AFA2 /* Debug */,
-				1D89B8901A18F3120039AFA2 /* Release */,
+				1D969B391A18F5AF00A68A75 /* Debug */,
+				1D969B3A1A18F5AF00A68A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D89B8911A18F3120039AFA2 /* Build configuration list for PBXNativeTarget "proj.mac" */ = {
+		1D969B3B1A18F5AF00A68A75 /* Build configuration list for PBXNativeTarget "proj.mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D89B8921A18F3120039AFA2 /* Debug */,
-				1D89B8931A18F3120039AFA2 /* Release */,
+				1D969B3C1A18F5AF00A68A75 /* Debug */,
+				1D969B3D1A18F5AF00A68A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1D89B8821A18F3120039AFA2 /* Project object */;
+	rootObject = 1D969B2C1A18F5AF00A68A75 /* Project object */;
 }

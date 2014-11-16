@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85F2400C-8EC3-420E-9814-94FE993AECDB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>proj.mac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BB6E343163B00347B654B032BA51C27B1564C0B1</key>
+		<string>github.com:xushvai/minisvrd.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>framework/netio/proj.mac/proj.mac.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BB6E343163B00347B654B032BA51C27B1564C0B1</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:xushvai/minisvrd.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BB6E343163B00347B654B032BA51C27B1564C0B1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB6E343163B00347B654B032BA51C27B1564C0B1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>minisvrd</string>
+		</dict>
+	</array>
+</dict>
+</plist>
