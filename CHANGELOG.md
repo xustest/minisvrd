@@ -4,9 +4,9 @@
 This is the first version, just add some directories and files.  
 You can't use the version, because the code is just for test!
 ### Improvements
-- Determined the directory structure :
-
-      minisvrd/  
+- Determined the directory structure :  
+```
+       minisvrd/  
           |_____ framework/
           |           |______ netio/ 
           |           |______ svrd/
@@ -21,7 +21,8 @@ You can't use the version, because the code is just for test!
           |_____ ROADMAP.md
           |_____ README.md
           |_____ LICENSE
-
+```
+    
 ### ~~Features~~
 ### ~~Bugfixes~~
 
