@@ -1,5 +1,5 @@
-#ifndef __OS_H__
-#define __OS_H__
+#ifndef _MINISVRD_INCLUDE_OS_H_
+#define _MINISVRD_INCLUDE_OS_H_
 
 #include <cstdint>
 
